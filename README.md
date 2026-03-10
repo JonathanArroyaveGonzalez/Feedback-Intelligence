@@ -11,7 +11,7 @@
 [![Gemini](https://img.shields.io/badge/Gemini-2.5_Flash-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev)
 [![Apps Script](https://img.shields.io/badge/Apps_Script-REST_API-34A853?style=flat-square&logo=google&logoColor=white)](https://script.google.com/d/1R3xUuLSctz6LOGuKS9_qBW1QV1M6Jv0myF2ksL_i1X0rwHlYDHcFgp-t/edit?usp=sharing)
 [![Looker Studio](https://img.shields.io/badge/Looker_Studio-Dashboard-4285F4?style=flat-square&logo=looker&logoColor=white)](https://lookerstudio.google.com/reporting/585fa257-1344-49de-8944-38d3f30d47b1)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel&logoColor=white)](https://feedback-intelligence-9idjs4gbf-jonathan-s-projects-3f18edbf.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel&logoColor=white)](https://feedback-intelligence-black.vercel.app/)
 
 </div>
 
@@ -31,7 +31,7 @@ Usuario → Formulario Web → Apps Script → Google Sheets → Gemini IA → L
 
 | Recurso | URL |
 |---------|-----|
-| 🌐 **Aplicación Web** | [alegra-feedback.vercel.app](https://feedback-intelligence-9idjs4gbf-jonathan-s-projects-3f18edbf.vercel.app/) |
+| 🌐 **Aplicación Web** | [alegra-feedback.vercel.app](https://feedback-intelligence-black.vercel.app/) |
 | ⚙️ **Apps Script API** | [Ver endpoint](https://script.google.com/d/1R3xUuLSctz6LOGuKS9_qBW1QV1M6Jv0myF2ksL_i1X0rwHlYDHcFgp-t/edit?usp=sharing) |
 | 📊 **Dashboard Looker Studio** | [Ver dashboard](https://lookerstudio.google.com/u/0/reporting/585fa257-1344-49de-8944-38d3f30d47b1/page/page_12345) |
 | 📋 **Google Sheets** | [Ver datos](https://docs.google.com/spreadsheets/d/1o8mNuRlXfXyZtQdhjQgmI-rjQzsv4_PwQUy8PLLhM0o/edit?usp=sharing) |
@@ -51,7 +51,7 @@ Usuario → Formulario Web → Apps Script → Google Sheets → Gemini IA → L
 ---
 
 ## Video demostracion
-[![Video Demostración](https://img.youtube.com/vi/4Z9N8S0GQWc/0.jpg)](https://www.youtube.com/watch?v=4Z9N8S0GQWc)
+[![Video Demostración](https://img.youtube.com/vi/4Z9N8S0GQWc/0.jpg)](https://drive.google.com/file/d/140NTjJpPU00CMc9k3jKaSpBdvMq_FAIA/view?usp=sharing)
 
 ## 🛠️ Stack Tecnológico
 
