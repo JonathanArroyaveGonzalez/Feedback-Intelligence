@@ -1,0 +1,78 @@
+---
+interface Props {
+  title?: string;
+}
+const { title = "Alegra Feedback" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --alegra-green: #00C896;
+    --alegra-green-dark: #00A87E;
+    --alegra-green-glow: rgba(0, 200, 150, 0.15);
+    --dark-bg: #0A0E14;
+    --dark-card: #111720;
+    --dark-border: #1E2A38;
+    --dark-border-hover: #2E3E52;
+    --text-primary: #EEF2F7;
+    --text-secondary: #7A92AA;
+    --text-muted: #3D5166;
+    --accent-orange: #FF6B35;
+    --accent-blue: #4A9EFF;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--dark-bg);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    background: var(--alegra-green);
+    color: var(--dark-bg);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--dark-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--dark-border-hover);
+    border-radius: 3px;
+  }
+</style>
