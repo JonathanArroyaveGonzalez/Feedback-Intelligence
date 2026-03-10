@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/node": "^9.5.4",
+    "@astrojs/vercel": "^9.0.4",
     "astro": "^5.17.1"
   }
 }
